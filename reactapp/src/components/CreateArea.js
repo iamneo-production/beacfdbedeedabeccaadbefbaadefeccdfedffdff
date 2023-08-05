@@ -31,6 +31,7 @@
 // export default CreateArea;
 
 import React, { useState, useCallback } from 'react';
+import styles from "../App.css";
 
 const CreateArea = ({ onAdd }) => {
   const [title, setTitle] = useState('');
