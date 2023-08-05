@@ -1,10 +1,22 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 1200px; /* Minimum width of the page */
+  min-height: 800px; /* Minimum height of the page */
+}
+
 header{
   margin-left: 100px;
   margin-right: 100px;
 
 }
 #title{
-  
+  margin-left: 100px;
+  margin-right:1000px;
+  margin-top: 30px;
+
 }
 #desc{
   margin:10px;
